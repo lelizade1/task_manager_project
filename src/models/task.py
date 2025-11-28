@@ -2,7 +2,7 @@ from src.models.work_item import WorkItem
 
 class Task(WorkItem):
     def __init__(self, title, priority="Medium", uid=None, status="Todo"):
-        # Pass uid to parent class
+
         super().__init__(title, uid=uid, status=status)
         self.priority = priority
 
@@ -11,7 +11,7 @@ class Task(WorkItem):
 
 class SubTask(WorkItem):
     def __init__(self, title, parent_id, uid=None, status="Todo"):
-        # Pass uid to parent class
+
         super().__init__(title, uid=uid, status=status)
         self.parent_id = parent_id
 

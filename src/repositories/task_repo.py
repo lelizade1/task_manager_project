@@ -35,9 +35,9 @@ class TaskRepository:
         except json.JSONDecodeError:
             return []
 
-    # --- NEW METHOD FOR VALIDATION ---
+
     def task_exists(self, target_id):
-        """Checks if a Task ID already exists in the JSON file."""
+
         all_tasks = self.get_all_raw()
         for t in all_tasks:
             if t['id'] == target_id:

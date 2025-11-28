@@ -2,12 +2,12 @@ from abc import ABC, abstractmethod
 import uuid
 
 class WorkItem(ABC):
-    # ADDED uid=None here so we can pass a manual ID
+
     def __init__(self, title, uid=None, status="Todo"):
         if uid:
-            self.__id = uid  # Use manual ID
+            self.__id = uid  
         else:
-            self.__id = str(uuid.uuid4())[:8]  # Auto-generate if empty
+            self.__id = str(uuid.uuid4())[:8] 
             
         self.title = title
         self.status = status
