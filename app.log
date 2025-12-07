@@ -1,0 +1,52 @@
+2025-12-06 19:59:17,823 - ERROR - Validation Error: ID '1' already exists.
+2025-12-06 19:59:42,774 - INFO - Service: Created Task 'learning python'
+2025-12-06 20:00:33,198 - INFO - Service: Deleted task 23
+2025-12-06 20:01:18,523 - INFO - Service: Updated status of 1 to done
+2025-12-06 20:08:55,784 - INFO - Service: Created Task 'Learn Pytest'
+2025-12-06 20:08:55,813 - INFO - Service: Created Task 'Bad Task'
+2025-12-06 20:08:55,911 - INFO - Service: Created Task 'Parent Task'
+2025-12-06 20:08:55,934 - INFO - Service: Created SubTask 'Child Task' linked to P1
+2025-12-06 20:08:55,958 - INFO - Service: Created Task 'To Update'
+2025-12-06 20:08:55,976 - INFO - Service: Updated status of 500 to Done
+2025-12-06 20:08:55,997 - INFO - Service: Created Task 'To Delete'
+2025-12-06 20:08:56,017 - INFO - Service: Deleted task 999
+2025-12-06 20:08:56,022 - INFO - Service: Created Task 'Task A'
+2025-12-06 20:08:56,041 - INFO - Service: Created Task 'Task B'
+2025-12-06 20:08:56,056 - INFO - Service: Created Task 'Task C'
+2025-12-06 20:13:11,253 - INFO - Service: Created Task 'Learn Pytest'
+2025-12-06 20:13:11,266 - INFO - Service: Created Task 'Bad Task'
+2025-12-06 20:13:11,377 - INFO - Service: Created Task 'Parent Task'
+2025-12-06 20:13:11,381 - INFO - Service: Created SubTask 'Child Task' linked to P1
+2025-12-06 20:13:11,391 - INFO - Service: Created Task 'To Update'
+2025-12-06 20:13:11,396 - INFO - Service: Updated status of 500 to Done
+2025-12-06 20:13:11,405 - INFO - Service: Created Task 'To Delete'
+2025-12-06 20:13:11,408 - INFO - Service: Deleted task 999
+2025-12-06 20:13:11,415 - INFO - Service: Created Task 'Task A'
+2025-12-06 20:13:11,418 - INFO - Service: Created Task 'Task B'
+2025-12-06 20:13:11,422 - INFO - Service: Created Task 'Task C'
+2025-12-06 20:20:31,071 - INFO - Service: Created Task 'Learn Pytest'
+2025-12-06 20:20:31,083 - INFO - Service: Created Task 'Parent Task'
+2025-12-06 20:20:31,086 - INFO - Service: Created SubTask 'Child Task' linked to P1
+2025-12-06 20:20:31,093 - INFO - Service: Created Task 'To Update'
+2025-12-06 20:20:31,097 - INFO - Service: Updated status of 500 to Done
+2025-12-06 20:20:31,106 - INFO - Service: Created Task 'To Delete'
+2025-12-06 20:20:31,109 - INFO - Service: Deleted task 999
+2025-12-06 20:20:31,117 - INFO - Service: Created Task 'Task A'
+2025-12-06 20:20:31,120 - INFO - Service: Created Task 'Task B'
+2025-12-06 20:20:31,125 - INFO - Service: Created Task 'Task C'
+2025-12-06 20:24:02,824 - INFO - Service: Created Task 'Test Task'
+2025-12-06 20:24:02,838 - INFO - Service: Updated status of 100 to Done
+2025-12-06 20:24:02,860 - INFO - Service: Deleted task 100
+2025-12-06 20:24:02,864 - INFO - Service: Created Task 'Task A'
+2025-12-06 20:24:02,868 - INFO - Service: Created Task 'Task B'
+2025-12-06 20:24:02,877 - INFO - Service: Created Task 'Task C'
+2025-12-06 20:30:39,471 - INFO - Service: Created Task 'Learn Pytest'
+2025-12-06 20:30:39,480 - INFO - Service: Created Task 'Parent Task'
+2025-12-06 20:30:39,485 - INFO - Service: Created SubTask 'Child Task' linked to P1
+2025-12-06 20:30:39,493 - INFO - Service: Created Task 'To Update'
+2025-12-06 20:30:39,496 - INFO - Service: Updated status of 500 to Done
+2025-12-06 20:30:39,506 - INFO - Service: Created Task 'To Delete'
+2025-12-06 20:30:39,510 - INFO - Service: Deleted task 999
+2025-12-06 20:30:39,517 - INFO - Service: Created Task 'Task A'
+2025-12-06 20:30:39,522 - INFO - Service: Created Task 'Task B'
+2025-12-06 20:30:39,527 - INFO - Service: Created Task 'Task C'
