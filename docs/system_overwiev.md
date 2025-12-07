@@ -20,5 +20,11 @@ a valid parent task ID. Everything is saved into `data/tasks.json`.
 - TeamMember
 - WorkItemFactory (creates Task/SubTask)
 - TaskRepository (saving, reading, validation)
+- TaskService (business logic)
+- SortStrategy (Title/Priority sorting)
+
+### Logging
+The system uses a centralized logger (`src/utils/logger.py`) that writes events to `app.log`.
+All critical errors and info messages are tracked there for debugging.
 
 The program is run through `main.py` which shows a simple menu in the terminal.

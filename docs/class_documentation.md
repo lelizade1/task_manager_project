@@ -24,6 +24,19 @@ Handles reading and writing data to the JSON file. It also checks if an ID
 already exists which helps prevent duplicates. It returns raw lists of dicts
 from the file for displaying.
 
+TaskService:
+The main operational layer. It contains methods like `create_task`, `create_subtask`,
+`get_tasks`, `update_task_status`, and `delete_task`. It validates business rules
+(non-empty titles, correct priority values) before calling the repository.
+
+SortStrategy (and subclasses):
+Abstract base class for sorting. `SortByTitle` sorts tasks alphabetically.
+`SortByPriority` sorts them by High -> Medium -> Low.
+
+Logger:
+A utility set up in `utils/logger.py`. It writes info and error messages to `app.log`
+and prints them to the console, aiding in debugging and tracking system usage.
+
 main.py:
-The user interface of the project. It shows menu options, validates user input,
-creates objects using the factory and saves them through the repository.
+The user interface of the project. It shows menu options, accepts input, and calls
+TaskService methods to perform actions.

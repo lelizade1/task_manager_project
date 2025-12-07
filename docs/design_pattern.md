@@ -12,4 +12,9 @@ Separation of Concerns:
 Even though not a “pattern”, the project clearly separates model classes, the
 repository, and the user interface, which makes the code easier to extend.
 
+Strategy Pattern:
+Used for sorting tasks. The `SortStrategy` abstract class allows swapping between
+different sorting algorithms (`SortByTitle`, `SortByPriority`) at runtime without
+changing the code that uses them.
+
 These patterns make the project structure cleaner and reduce duplication.
